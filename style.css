@@ -2103,10 +2103,6 @@ div#main_inner {
     margin-bottom: 0px;
   }
 
-  .Sd {
-    margin-right: 0px;
-    padding-right: 0px;
-  }
   
   .material-icons {
     color: #818181;
@@ -2124,12 +2120,14 @@ div#main_inner {
     background-color: rgba(253, 253, 253, 0.9);
     color: #000000;
     list-style: none;
-    padding: 80px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; /* Space out items equally */
   }
 
 #mobile_menu li {
     font-size: 15px;
-    margin-bottom: 10px;
 }
 
   
